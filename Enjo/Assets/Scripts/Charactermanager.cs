@@ -47,10 +47,12 @@ public class Charactermanager : MonoBehaviour
         if (InputSprint == 1) 
         {
             movementSpeed = SprintSpeed;
+            CharacterAnimator.SetBool("Run", true);
         }
         else 
         {
             movementSpeed = OriginalSpeed;
+            CharacterAnimator.SetBool("Run", false);
         }
         if (Speed > AllowRotation)
         {
