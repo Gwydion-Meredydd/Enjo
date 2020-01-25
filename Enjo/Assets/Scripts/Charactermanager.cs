@@ -9,6 +9,7 @@ public class Charactermanager : MonoBehaviour
     private float InputX, InputZ, InputSprint, Speed, OriginalSpeed;
     private Camera Cam;
     private CharacterController character_Controller;
+    private bool CanJump;
 
     private Vector3 DisiredMoveDirection;
 
@@ -90,18 +91,47 @@ public class Charactermanager : MonoBehaviour
             //gravity = 0;
             if (Input.GetButtonDown("Jump"))
             {
-                gravity = JumpSpeed;
-                CharacterAnimator.SetBool("Jump", true);
+                CharacterAnimator.SetBool("PreJump", true);
+            }
+            if (Input.GetButtonUp("Jump"))
+            {
+                if (CanJump == true)
+                {
+                    CharacterAnimator.SetBool("PreJump", false);
+                    CharacterAnimator.SetBool("Jump", true);
+                    gravity = JumpSpeed;
+                }
+                if (CanJump == false) 
+                {
+                    CharacterAnimator.SetBool("PreJump", false);
+                    CharacterAnimator.SetBool("Jump", false);
+                }
             }
             else if (character_Controller.isGrounded)
             {
-                gravity = (gravity / Time.deltaTime);
-                if (gravity < 0)
-                {
-                    gravity = 0;
-                }
-                CharacterAnimator.SetBool("Jump", false);
+                JumpOff();
             }
+        }
+        if (Input.GetButtonDown("Jump"))
+        {
+            CharacterAnimator.SetBool("PreJump", true);
+        }
+    }
+    public void JumpEvent() 
+    {
+        CanJump = true;
+    }
+    public void JumpEventOff()
+    {
+        CanJump = false;
+        CharacterAnimator.SetBool("Jump", false);
+        gravity = 0;
+    }
+    void JumpOff() 
+    {
+        if (gravity < 0)
+        {
+            gravity = 0;
         }
     }
 }
