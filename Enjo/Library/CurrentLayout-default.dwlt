@@ -14,14 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: -1920
+    x: 0
     y: 43
     width: 1920
     height: 1007
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 3}
-  m_MinSize: {x: 950, y: 472}
+  m_MinSize: {x: 950, y: 744}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -91,7 +91,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: MOCAP
+  m_LastLoadedLayoutName: 
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -134,10 +134,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 957
-  m_MinSize: {x: 581, y: 422}
-  m_MaxSize: {x: 12006, y: 8044}
+  m_MinSize: {x: 1183, y: 694}
+  m_MaxSize: {x: 12008, y: 8044}
   vertical: 0
-  controlID: 7301
+  controlID: 210
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -159,10 +159,10 @@ MonoBehaviour:
     y: 0
     width: 1333
     height: 957
-  m_MinSize: {x: 306, y: 422}
+  m_MinSize: {x: 906, y: 694}
   m_MaxSize: {x: 8006, y: 8044}
   vertical: 1
-  controlID: 7302
+  controlID: 64
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -184,10 +184,10 @@ MonoBehaviour:
     y: 0
     width: 1333
     height: 499
-  m_MinSize: {x: 304, y: 200}
-  m_MaxSize: {x: 8004, y: 4022}
+  m_MinSize: {x: 886, y: 422}
+  m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 7254
+  controlID: 65
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -207,8 +207,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 499
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 222}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -233,16 +233,16 @@ MonoBehaviour:
     y: 0
     width: 1131
     height: 499
-  m_MinSize: {x: 104, y: 122}
-  m_MaxSize: {x: 4004, y: 4022}
-  m_ActualView: {fileID: 18}
+  m_MinSize: {x: 680, y: 400}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 17}
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 2
+  m_Selected: 3
+  m_LastSelected: 1
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -264,10 +264,10 @@ MonoBehaviour:
     y: 499
     width: 1333
     height: 458
-  m_MinSize: {x: 306, y: 222}
+  m_MinSize: {x: 906, y: 272}
   m_MaxSize: {x: 8006, y: 4022}
   vertical: 0
-  controlID: 7303
+  controlID: 189
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -287,15 +287,15 @@ MonoBehaviour:
     y: 0
     width: 716
     height: 458
-  m_MinSize: {x: 100, y: 100}
+  m_MinSize: {x: 700, y: 250}
   m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 24}
+  m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 21}
   - {fileID: 22}
   - {fileID: 23}
   - {fileID: 24}
-  m_Selected: 3
+  m_Selected: 2
   m_LastSelected: 0
 --- !u!114 &13
 MonoBehaviour:
@@ -316,8 +316,8 @@ MonoBehaviour:
     y: 0
     width: 617
     height: 458
-  m_MinSize: {x: 204, y: 222}
-  m_MaxSize: {x: 4004, y: 4022}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -370,7 +370,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1204
+    x: 716
     y: 572
     width: 615
     height: 439
@@ -451,7 +451,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
+    x: 0
     y: 73
     width: 202
     height: 480
@@ -459,9 +459,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ae45feff
+      m_SelectedIDs: 8e3c0000
       m_LastClickedID: 0
-      m_ExpandedIDs: 344f0000
+      m_ExpandedIDs: 74fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -711,10 +711,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1718
+    x: 202
     y: 73
     width: 1129
-    height: 666
+    height: 480
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &21
 MonoBehaviour:
@@ -737,7 +737,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
+    x: 0
     y: 572
     width: 716
     height: 439
@@ -755,20 +755,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animations
+    - Assets/TutorialInfo
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations
+  - Assets/TutorialInfo
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\Unity\Enjo\Enjo\Enjo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: be390000
-    m_LastClickedID: 14782
-    m_ExpandedIDs: 00000000ea380000803c0000cc420000f2430000404400007445000000ca9a3b
+    scrollPos: {x: 0, y: 89}
+    m_SelectedIDs: ee3f0000
+    m_LastClickedID: 16366
+    m_ExpandedIDs: 00000000ea380000743c0000ba420000dc4300002a4400005e45000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -796,7 +796,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000ea380000803c0000cc420000f2430000404400007445000000ca9a3b
+    m_ExpandedIDs: 00000000ea380000743c0000ba420000dc4300002a4400005e450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -821,9 +821,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: fa590000
-    m_LastClickedInstanceID: 23034
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 8e3c0000
+    m_LastClickedInstanceID: 15502
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000fa390000546f0000bc450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -898,10 +898,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
-    y: 507
-    width: 708
-    height: 504
+    x: 0
+    y: 572
+    width: 716
+    height: 439
   m_ViewDataDictionary: {fileID: 0}
   Collection:
     filter: 0
@@ -4317,11 +4317,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4422,7 +4422,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -4442,11 +4442,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4547,7 +4547,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -4567,11 +4567,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4672,7 +4672,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -4692,11 +4692,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4797,7 +4797,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -4817,11 +4817,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -4922,7 +4922,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -4942,11 +4942,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5047,7 +5047,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5067,11 +5067,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5172,7 +5172,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5192,11 +5192,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5297,7 +5297,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5317,11 +5317,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5422,7 +5422,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5442,11 +5442,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5547,7 +5547,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5567,11 +5567,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5672,7 +5672,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5692,11 +5692,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5797,7 +5797,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5817,11 +5817,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -5922,7 +5922,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -5942,11 +5942,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6047,7 +6047,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6067,11 +6067,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6172,7 +6172,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6192,11 +6192,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6297,7 +6297,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6317,11 +6317,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6422,7 +6422,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6442,11 +6442,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6547,7 +6547,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6567,11 +6567,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6672,7 +6672,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6692,11 +6692,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6797,7 +6797,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6817,11 +6817,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -6922,7 +6922,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -6942,11 +6942,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7047,7 +7047,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7067,11 +7067,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7172,7 +7172,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7192,11 +7192,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7297,7 +7297,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7317,11 +7317,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7422,7 +7422,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7442,11 +7442,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7547,7 +7547,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7567,11 +7567,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7672,7 +7672,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7692,11 +7692,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7797,7 +7797,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7817,11 +7817,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -7922,7 +7922,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.analytics
       DisplayName: Analytics Library
@@ -7942,11 +7942,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -8032,6 +8032,127 @@ MonoBehaviour:
         m_ResolvedDependencies:
         - m_Name: com.unity.ugui
           m_Version: 1.0.0
+        m_Keywords:
+        - analytics
+        - unity
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_Entitlements:
+          m_IsAllowed: 1
+        m_DatePublishedTicks: 637146252790000000
+      IsInstalled: 0
+    - Name: com.unity.analytics
+      DisplayName: Analytics Library
+      _Version: 3.3.4
+      Description: The Unity Analytics Library contains the Analytics Event Tracker
+        component, the Data Privacy plug-in, and the Standard Events API.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 0
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.analytics@3.3.4
+        m_IsDirectDependency: 0
+        m_Version: 3.3.4
+        m_Source: 1
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_AssetPath: Packages/com.unity.analytics
+        m_Name: com.unity.analytics
+        m_DisplayName: Analytics Library
+        m_Category: 
+        m_Type: 
+        m_Description: The Unity Analytics Library contains the Analytics Event Tracker
+          component, the Data Privacy plug-in, and the Standard Events API.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.0.3
+          - 0.0.4
+          - 0.0.5
+          - 0.0.7
+          - 0.0.8
+          - 0.0.9
+          - 0.0.10
+          - 0.0.11
+          - 0.0.12
+          - 0.0.13
+          - 0.0.14
+          - 0.0.15
+          - 0.0.16
+          - 0.0.17
+          - 0.0.19
+          - 2.0.5
+          - 2.0.11
+          - 2.0.13
+          - 2.0.14
+          - 2.0.15
+          - 2.0.16
+          - 3.0.5
+          - 3.0.9
+          - 3.1.1
+          - 3.2.0
+          - 3.2.2
+          - 3.2.3
+          - 3.3.0
+          - 3.3.2-preview
+          - 3.3.2
+          - 3.3.4
+          - 3.4.0
+          m_Compatible:
+          - 0.0.3
+          - 0.0.4
+          - 0.0.5
+          - 0.0.7
+          - 0.0.8
+          - 0.0.9
+          - 0.0.10
+          - 0.0.11
+          - 0.0.12
+          - 0.0.13
+          - 0.0.14
+          - 0.0.15
+          - 0.0.16
+          - 0.0.17
+          - 0.0.19
+          - 2.0.5
+          - 2.0.11
+          - 2.0.13
+          - 2.0.14
+          - 2.0.15
+          - 2.0.16
+          - 3.0.5
+          - 3.0.9
+          - 3.1.1
+          - 3.2.0
+          - 3.2.2
+          - 3.2.3
+          - 3.3.0
+          - 3.3.2-preview
+          - 3.3.2
+          - 3.3.4
+          - 3.4.0
+          m_Recommended: 3.3.4
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
         m_Keywords:
         - analytics
         - unity
@@ -8049,131 +8170,6 @@ MonoBehaviour:
           m_IsAllowed: 1
         m_DatePublishedTicks: 637104744530000000
       IsInstalled: 0
-    - Name: com.unity.analytics
-      DisplayName: Analytics Library
-      _Version: 3.3.4
-      Description: The Unity Analytics Library contains the Analytics Event Tracker
-        component, the Data Privacy plug-in, and the Standard Events API.
-      Category: 
-      State: 1
-      IsLatest: 0
-      Group: Packages
-      Type: 
-      Origin: 1
-      Errors: []
-      IsVerified: 0
-      Author: Unity Technologies Inc.
-      IsDiscoverable: 1
-      Samples: []
-      HasFullFetch: 1
-      Info:
-        m_PackageId: com.unity.analytics@3.3.4
-        m_IsDirectDependency: 1
-        m_Version: 3.3.4
-        m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
-        m_AssetPath: Packages/com.unity.analytics
-        m_Name: com.unity.analytics
-        m_DisplayName: Analytics Library
-        m_Category: 
-        m_Type: 
-        m_Description: The Unity Analytics Library contains the Analytics Event Tracker
-          component, the Data Privacy plug-in, and the Standard Events API.
-        m_Status: 4
-        m_Errors: []
-        m_Versions:
-          m_All:
-          - 0.0.3
-          - 0.0.4
-          - 0.0.5
-          - 0.0.7
-          - 0.0.8
-          - 0.0.9
-          - 0.0.10
-          - 0.0.11
-          - 0.0.12
-          - 0.0.13
-          - 0.0.14
-          - 0.0.15
-          - 0.0.16
-          - 0.0.17
-          - 0.0.19
-          - 2.0.5
-          - 2.0.11
-          - 2.0.13
-          - 2.0.14
-          - 2.0.15
-          - 2.0.16
-          - 3.0.5
-          - 3.0.9
-          - 3.1.1
-          - 3.2.0
-          - 3.2.2
-          - 3.2.3
-          - 3.3.0
-          - 3.3.2-preview
-          - 3.3.2
-          - 3.3.4
-          - 3.3.5
-          - 3.4.0
-          m_Compatible:
-          - 0.0.3
-          - 0.0.4
-          - 0.0.5
-          - 0.0.7
-          - 0.0.8
-          - 0.0.9
-          - 0.0.10
-          - 0.0.11
-          - 0.0.12
-          - 0.0.13
-          - 0.0.14
-          - 0.0.15
-          - 0.0.16
-          - 0.0.17
-          - 0.0.19
-          - 2.0.5
-          - 2.0.11
-          - 2.0.13
-          - 2.0.14
-          - 2.0.15
-          - 2.0.16
-          - 3.0.5
-          - 3.0.9
-          - 3.1.1
-          - 3.2.0
-          - 3.2.2
-          - 3.2.3
-          - 3.3.0
-          - 3.3.2-preview
-          - 3.3.2
-          - 3.3.4
-          - 3.3.5
-          - 3.4.0
-          m_Recommended: 3.3.5
-        m_Dependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_ResolvedDependencies:
-        - m_Name: com.unity.ugui
-          m_Version: 1.0.0
-        m_Keywords:
-        - analytics
-        - unity
-        m_Author:
-          m_Name: 
-          m_Email: 
-          m_Url: 
-        m_HasRegistry: 1
-        m_Registry:
-          m_Name: 
-          m_Url: https://packages.unity.com
-          m_IsDefault: 1
-        m_HideInEditor: 1
-        m_Entitlements:
-          m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
-      IsInstalled: 1
     - Name: com.unity.analytics
       DisplayName: Analytics Library
       _Version: 3.3.5
@@ -8190,13 +8186,13 @@ MonoBehaviour:
       Author: Unity Technologies Inc.
       IsDiscoverable: 1
       Samples: []
-      HasFullFetch: 0
+      HasFullFetch: 1
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -8297,8 +8293,8 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
-      IsInstalled: 0
+        m_DatePublishedTicks: 637146252790000000
+      IsInstalled: 1
     - Name: com.unity.analytics
       DisplayName: Analytics Library
       _Version: 3.4.0
@@ -8317,11 +8313,11 @@ MonoBehaviour:
       Samples: []
       HasFullFetch: 0
       Info:
-        m_PackageId: com.unity.analytics@3.3.4
+        m_PackageId: com.unity.analytics@3.3.5
         m_IsDirectDependency: 1
-        m_Version: 3.3.4
+        m_Version: 3.3.5
         m_Source: 1
-        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.4
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
         m_AssetPath: Packages/com.unity.analytics
         m_Name: com.unity.analytics
         m_DisplayName: Analytics Library
@@ -8422,7 +8418,7 @@ MonoBehaviour:
         m_HideInEditor: 1
         m_Entitlements:
           m_IsAllowed: 1
-        m_DatePublishedTicks: 637104744530000000
+        m_DatePublishedTicks: 637146252790000000
       IsInstalled: 0
     - Name: com.unity.collab-proxy
       DisplayName: Unity Collaborate
@@ -26775,6 +26771,129 @@ MonoBehaviour:
           m_IsAllowed: 1
         m_DatePublishedTicks: 637104744530000000
       IsInstalled: 0
+    - Name: com.unity.analytics
+      DisplayName: Analytics Library
+      _Version: 3.3.5
+      Description: The Unity Analytics Library contains the Analytics Event Tracker
+        component, the Data Privacy plug-in, and the Standard Events API.
+      Category: 
+      State: 0
+      IsLatest: 0
+      Group: Packages
+      Type: 
+      Origin: 1
+      Errors: []
+      IsVerified: 1
+      Author: Unity Technologies Inc.
+      IsDiscoverable: 0
+      Samples: []
+      HasFullFetch: 1
+      Info:
+        m_PackageId: com.unity.analytics@3.3.5
+        m_IsDirectDependency: 0
+        m_Version: 3.3.5
+        m_Source: 1
+        m_ResolvedPath: F:\Unity\Enjo\Enjo\Enjo\Library\PackageCache\com.unity.analytics@3.3.5
+        m_AssetPath: Packages/com.unity.analytics
+        m_Name: com.unity.analytics
+        m_DisplayName: Analytics Library
+        m_Category: 
+        m_Type: 
+        m_Description: The Unity Analytics Library contains the Analytics Event Tracker
+          component, the Data Privacy plug-in, and the Standard Events API.
+        m_Status: 1
+        m_Errors: []
+        m_Versions:
+          m_All:
+          - 0.0.3
+          - 0.0.4
+          - 0.0.5
+          - 0.0.7
+          - 0.0.8
+          - 0.0.9
+          - 0.0.10
+          - 0.0.11
+          - 0.0.12
+          - 0.0.13
+          - 0.0.14
+          - 0.0.15
+          - 0.0.16
+          - 0.0.17
+          - 0.0.19
+          - 2.0.5
+          - 2.0.11
+          - 2.0.13
+          - 2.0.14
+          - 2.0.15
+          - 2.0.16
+          - 3.0.5
+          - 3.0.9
+          - 3.1.1
+          - 3.2.0
+          - 3.2.2
+          - 3.2.3
+          - 3.3.0
+          - 3.3.2-preview
+          - 3.3.2
+          - 3.3.4
+          - 3.3.5
+          - 3.4.0
+          m_Compatible:
+          - 0.0.3
+          - 0.0.4
+          - 0.0.5
+          - 0.0.7
+          - 0.0.8
+          - 0.0.9
+          - 0.0.10
+          - 0.0.11
+          - 0.0.12
+          - 0.0.13
+          - 0.0.14
+          - 0.0.15
+          - 0.0.16
+          - 0.0.17
+          - 0.0.19
+          - 2.0.5
+          - 2.0.11
+          - 2.0.13
+          - 2.0.14
+          - 2.0.15
+          - 2.0.16
+          - 3.0.5
+          - 3.0.9
+          - 3.1.1
+          - 3.2.0
+          - 3.2.2
+          - 3.2.3
+          - 3.3.0
+          - 3.3.2-preview
+          - 3.3.2
+          - 3.3.4
+          - 3.3.5
+          - 3.4.0
+          m_Recommended: 3.3.5
+        m_Dependencies:
+        - m_Name: com.unity.ugui
+          m_Version: 1.0.0
+        m_ResolvedDependencies: []
+        m_Keywords:
+        - analytics
+        - unity
+        m_Author:
+          m_Name: 
+          m_Email: 
+          m_Url: 
+        m_HasRegistry: 1
+        m_Registry:
+          m_Name: 
+          m_Url: https://packages.unity.com
+          m_IsDefault: 1
+        m_HideInEditor: 1
+        m_Entitlements:
+          m_IsAllowed: 1
+        m_DatePublishedTicks: 637146252790000000
+      IsInstalled: 0
     listPackagesVersion: 0
     listPackagesOfflineVersion: 0
     searchOperationOngoing: 1
@@ -26867,7 +26986,7 @@ MonoBehaviour:
         Expanded: 1
         SeeAllVersions: 1
         Selected: 0
-      - PackageId: com.unity.render-pipelines.lightweight@6.9.1
+      - PackageId: com.unity.analytics@3.3.5
         Expanded: 0
         SeeAllVersions: 0
         Selected: 1
@@ -26884,7 +27003,7 @@ MonoBehaviour:
         SeeAllVersions: 0
         Selected: 0
       - PackageId: com.unity.analytics@3.3.4
-        Expanded: 0
+        Expanded: 1
         SeeAllVersions: 0
         Selected: 0
       - PackageId: com.unity.ext.nunit@1.0.0
@@ -26892,6 +27011,10 @@ MonoBehaviour:
         SeeAllVersions: 0
         Selected: 0
       - PackageId: com.unity.purchasing@2.0.6
+        Expanded: 0
+        SeeAllVersions: 0
+        Selected: 0
+      - PackageId: com.unity.render-pipelines.lightweight@6.9.1
         Expanded: 0
         SeeAllVersions: 0
         Selected: 0
@@ -27103,7 +27226,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -587
+    x: 1333
     y: 73
     width: 585
     height: 938
