@@ -1,12 +1,14 @@
 ﻿
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 using System.Collections;
 
 [RequireComponent(typeof(CharacterController))]
 public class Charactermanager : MonoBehaviour
 {
     private float InputX, InputZ, InputSprint, Speed, OriginalSpeed;
+    public CinemachineVirtualCamera ThirdPersonCamera;
     private Camera Cam;
     private CharacterController character_Controller;
     private bool CanJump;
@@ -115,6 +117,14 @@ public class Charactermanager : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             CharacterAnimator.SetBool("PreJump", true);
+        }
+        if (Input.GetButtonDown("Fire1"))
+        {
+            CharacterAnimator.SetBool("PreJump", true);
+        }
+        if (Input.GetButtonUp("Fire1"))
+        {
+            CharacterAnimator.SetBool("PreJump", false);
         }
     }
     public void JumpEvent() 
