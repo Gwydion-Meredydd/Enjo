@@ -18,10 +18,10 @@ public class QuestsController : MonoBehaviour
     }
     public void NewQuest()
     {
-        for (int i = 0; i < QuestList.Length; i++)
-        {
+        //for (int i = 0; i < QuestList.Length; i++)
+        //{
 
-        }
+        //}
         QuestNumber++;
     }
     public void pickup()
