@@ -11,6 +11,7 @@ public class QuestsController : MonoBehaviour
 
     public int QuestNumber;
     public QuestList QuestList = new QuestList();
+    public int pickedupammount;
 
     public void Start()
     {
@@ -18,15 +19,19 @@ public class QuestsController : MonoBehaviour
     }
     public void NewQuest()
     {
-        for (int i = 0; i < QuestList.Length; i++)
-        {
-
-        }
         QuestNumber++;
     }
     public void pickup()
     {
-
+        if (pickedupammount < 3)
+        {
+            pickedupammount++;
+        }
+        if (pickedupammount == 3) 
+        {
+            pickedupammount = 0;
+            NewQuest();
+        }
     }
 
 }
