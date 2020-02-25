@@ -14,13 +14,13 @@ public class panelMGR : MonoBehaviour
       if  (Input.GetKeyDown(KeyCode.Space))
         {
             panelDisable.SetActive(false);
-            Debug.Log("Disabled!");
+            Debug.Log("Panel disabled!");
         }
 
-      else
+      if (Input.GetKeyDown(KeyCode.Space))
         {
             panelEnable.SetActive(true);
-            Debug.Log("Enabled!");
+            Debug.Log("Panel Enabled!");
         }
     }
 }
