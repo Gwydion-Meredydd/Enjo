@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: 8944ddad77ffc774991efcdc6b2799f8
-=======
-guid: f6df39d363905454196abfbf4bbb1438
->>>>>>> Gwydion
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
@@ -43,11 +39,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
-<<<<<<< HEAD
     globalScale: 4.2
-=======
-    globalScale: 4
->>>>>>> Gwydion
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
@@ -94,11 +86,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-<<<<<<< HEAD
     globalScale: 0.041999996
-=======
-    globalScale: 0.04
->>>>>>> Gwydion
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

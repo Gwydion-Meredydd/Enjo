@@ -1,7 +1,6 @@
 ﻿
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using Cinemachine;
 using System.Collections;
 
@@ -13,7 +12,6 @@ public class Charactermanager : MonoBehaviour
     private Camera Cam;
     private CharacterController character_Controller;
     private bool CanJump;
-    public Text PickupText;
 
     private Vector3 DisiredMoveDirection;
 
@@ -139,33 +137,11 @@ public class Charactermanager : MonoBehaviour
         CharacterAnimator.SetBool("Jump", false);
         gravity = 0;
     }
-    public void CanGrab()
-    {
-        PickupText.text = "Press 'E' to pickup item!";
-        if (Input.GetButtonDown("Interact"))
-        {
-            PickupText.text = "You Collected a coin!";
-            CharacterAnimator.SetBool("Grab", true);
-            StartCoroutine(TextPickupTimer());
-        }
-    }
-    public void CantGrab() 
-    {
-        PickupText.text = "";
-    }
-
     void JumpOff() 
     {
         if (gravity < 0)
         {
             gravity = 0;
         }
-    }
-    IEnumerator TextPickupTimer()
-    {
-        yield return new WaitForSeconds(1.5f);
-        CharacterAnimator.SetBool("Grab", false);
-        yield return new WaitForSeconds(1);
-        PickupText.text = "";
     }
 }
