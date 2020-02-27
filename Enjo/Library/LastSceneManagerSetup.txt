@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/LevelOne.unity
+=======
+- path: Assets/Scenes/BlockOut.unity
+>>>>>>> parent of 69fd7898... Main Menu
   isLoaded: 1
   isActive: 1
   isSubScene: 0
