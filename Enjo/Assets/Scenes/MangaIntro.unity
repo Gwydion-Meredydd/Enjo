@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1, y: 27.5}
+  m_AnchoredPosition: {x: 0, y: 53.5}
   m_SizeDelta: {x: 1079.8, y: 55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23748332
@@ -205,8 +205,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: One legendary warrior from the Tempris klan managed to defeat Shiro, banishing
-    him into hiding. His sword was lost in the battle and has yet to be found...
+  m_Text: One legendary warrior from Tempris  managed to defeat Shiro, banishing him
+    into hiding. The warriors sword was lost  and has never been found...
 --- !u!222 &23748334
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -406,8 +406,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -285.95}
-  m_SizeDelta: {x: 1079.8, y: 41.9}
+  m_AnchoredPosition: {x: 0, y: -267.13}
+  m_SizeDelta: {x: 1079.8, y: 56.25}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &151345414
 MonoBehaviour:
@@ -457,7 +457,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Creating an army of minions consumed with darkness, he waged war on the
-    klans. '
+    klans, promising to destroy all that caused him pain. '
 --- !u!222 &151345416
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -681,7 +681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1, y: 34.049988}
+  m_AnchoredPosition: {x: 0, y: 60.049988}
   m_SizeDelta: {x: 1079.8, y: 41.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &320391529
@@ -732,7 +732,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Our story begins many years later with the warrior's grandson Enjo, who
-    has just awoken from an afternoon nap...
+    has just awoken from an afternoon nap.
 --- !u!222 &320391531
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -776,7 +776,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -287}
+  m_AnchoredPosition: {x: -1, y: -261}
   m_SizeDelta: {x: 1079.8, y: 41.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &481462576
@@ -826,8 +826,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: And finally, the Tempris klan, known for their manipulation of fire, were
-    home to some of the best leaders in all of history.
+  m_Text: And finally Tempris, known for their manipulation of fire, were home to
+    some of the best leaders in all of history.
 --- !u!222 &481462578
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -938,6 +938,7 @@ GameObject:
   - component: {fileID: 592563115}
   - component: {fileID: 592563114}
   - component: {fileID: 592563116}
+  - component: {fileID: 592563117}
   m_Layer: 5
   m_Name: Text01
   m_TagString: Untagged
@@ -961,7 +962,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -281.05}
+  m_AnchoredPosition: {x: 0, y: -255.04999}
   m_SizeDelta: {x: 772.8, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592563114
@@ -1020,6 +1021,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textDisable: {fileID: 592563112}
   textEnable: {fileID: 1673062245}
+--- !u!95 &592563117
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592563112}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7de52cc56e97af543a30c56d240dc3dd, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &635620830
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,8 +1075,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -287}
-  m_SizeDelta: {x: 1079.8, y: 41.9}
+  m_AnchoredPosition: {x: 0, y: -271.7}
+  m_SizeDelta: {x: 1079.8, y: 63.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635620832
 MonoBehaviour:
@@ -1106,7 +1126,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'However for Shiro, a strange orphan boy from Tempris relentlessly rejected
-    for his lack of ability, this did not happen. '
+    for his lack of ability, he never truly found a place he belonged. '
 --- !u!222 &635620834
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1544,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -281.05}
+  m_AnchoredPosition: {x: 0, y: -255.04999}
   m_SizeDelta: {x: 772.8, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1325899243
@@ -1594,7 +1614,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Hydris Klan could control water and liquids, and maintained elegancy...
+  m_Text: Hydris could control water, but always maintained elegancy in everything
+    they did...
 --- !u!222 &1325899245
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1638,7 +1659,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 1, y: 34.049988}
+  m_AnchoredPosition: {x: 0, y: 60.049988}
   m_SizeDelta: {x: 1079.8, y: 41.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1326796759
@@ -1733,7 +1754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -285.95}
+  m_AnchoredPosition: {x: 0, y: -259.95}
   m_SizeDelta: {x: 1079.8, y: 41.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1336386256
@@ -1784,7 +1805,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: The onslaught that endured from Shiro was brutal and many brave warriors
-    were lost to his darkness ...
+    were lost to his darkness...
 --- !u!222 &1336386258
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1873,96 +1894,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1523020236
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1523020237}
-  - component: {fileID: 1523020239}
-  - component: {fileID: 1523020238}
-  - component: {fileID: 1523020240}
-  m_Layer: 5
-  m_Name: Panel01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1523020237
+--- !u!224 &1523020237 stripped
 RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+    type: 3}
+  m_PrefabInstance: {fileID: 4610404777829733277}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523020236}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 707462005}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 25}
-  m_SizeDelta: {x: 1120, y: 475}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1523020238
+--- !u!114 &1523020238 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4610404776927650387, guid: 909cbf07f565594428e5326328c84e27,
+    type: 3}
+  m_PrefabInstance: {fileID: 4610404777829733277}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523020236}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1523020239
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523020236}
-  m_CullTransparentMesh: 0
---- !u!114 &1523020240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1523020236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 925bc3c840eff3c4393e545455619968, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  panelDisable: {fileID: 1523020236}
-  panelEnable: {fileID: 1575018871}
 --- !u!1 &1575018871
 GameObject:
   m_ObjectHideFlags: 0
@@ -2178,7 +2127,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.99998856, y: -293.65}
+  m_AnchoredPosition: {x: -0.000011444092, y: -267.65}
   m_SizeDelta: {x: 1136, y: 55.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1618316391
@@ -2356,7 +2305,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -283.05}
+  m_AnchoredPosition: {x: 0, y: -257.05}
   m_SizeDelta: {x: 876.1, y: 34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1673062247
@@ -2406,8 +2355,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The Geod Klan were known for their ability to manipulate the earth, and
-    for their giving nature...
+  m_Text: Geod were known for their ability to manipulate the earth, and for their
+    giving nature...
 --- !u!222 &1673062249
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2796,7 +2745,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: -287}
+  m_AnchoredPosition: {x: 0, y: -261}
   m_SizeDelta: {x: 1218, y: 41.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2127675837
@@ -2856,3 +2805,132 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127675835}
   m_CullTransparentMesh: 0
+--- !u!1001 &4610404777829733277
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 707462005}
+    m_Modifications:
+    - target: {fileID: 4610404776927650385, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_Name
+      value: Panel01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 1120
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 475
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650384, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4610404776927650381, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: panelEnable
+      value: 
+      objectReference: {fileID: 1575018871}
+    - target: {fileID: 4610404776927650381, guid: 909cbf07f565594428e5326328c84e27,
+        type: 3}
+      propertyPath: imageFade
+      value: 
+      objectReference: {fileID: 1523020238}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 909cbf07f565594428e5326328c84e27, type: 3}
