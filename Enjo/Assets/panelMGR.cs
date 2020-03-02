@@ -20,6 +20,7 @@ public class panelMGR : MonoBehaviour
     public GameObject boardTen;
     public GameObject boardEleven;
     public GameObject boardTwelve;
+    public Animator fadeAnim;
 
     void Start()
     {
@@ -32,6 +33,8 @@ public class panelMGR : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             ClickMethod();
+            fadeAnim.SetBool("Fade", true);
+
         }
     }
     public void ClickMethod()

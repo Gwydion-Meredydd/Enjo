@@ -9,7 +9,7 @@ public class CS_textMGR : MonoBehaviour
     [Header("Enabling Text")]
     public GameObject textDisable;
     public GameObject textEnable;
-    public Animator anim;
+    public Animator fadeAnim;
 
     void Update()
     {
@@ -17,7 +17,7 @@ public class CS_textMGR : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log("Text Enabled!");
-            anim.SetBool("Fade", true);
+            fadeAnim.SetBool("Fade", true);
             StartCoroutine(Timing());
         }
     }
