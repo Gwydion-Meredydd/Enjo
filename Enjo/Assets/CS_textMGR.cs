@@ -9,21 +9,22 @@ public class CS_textMGR : MonoBehaviour
     [Header("Enabling Text")]
     public GameObject textDisable;
     public GameObject textEnable;
-
-
+    public Animator anim;
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            textDisable.SetActive(false);
-            Debug.Log("Text disabled!");
-        }
 
         if (Input.GetMouseButtonDown(0))
         {
-            textEnable.SetActive(true);
             Debug.Log("Text Enabled!");
+            anim.SetBool("Fade", true);
+            StartCoroutine(Timing());
         }
+    }
+    IEnumerator Timing()
+    {
+        yield return new WaitForSeconds(0.5f);
+        textEnable.SetActive(true);
+        textDisable.SetActive(false);
     }
 }
